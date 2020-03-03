@@ -62,7 +62,7 @@ function bodyColor() {
   }
 }
 
-setInterval(bodyColor, 2000)
+setInterval(bodyColor, 10000)
 
 
 $('.events__slider').slick({
