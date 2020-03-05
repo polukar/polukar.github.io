@@ -1219,6 +1219,13 @@ path {
   .info.--blue.chart .info__text {
     margin-bottom: 11px; } }
 
+@media (min-width: 300px) and (max-width: 700px) {
+  .works .mbr {
+    display: block; }
+  .work__title {
+    font-size: 5vw;
+    line-height: 7vw; } }
+
 .brand {
   padding-top: 80px;
   padding-bottom: 80px;
@@ -1395,7 +1402,7 @@ path {
     width: 100%;
     max-width: 100%; } }
 
-@media (min-width: 320px) and (max-width: 700px) {
+@media (min-width: 300px) and (max-width: 700px) {
   .brand .mbr {
     display: block; }
   .brand__right {
@@ -2329,7 +2336,11 @@ path {
   .main__canvas {
     display: none; } }
 
-@media (min-width: 320px) and (max-width: 700px) {
+@media (max-width: 400px) {
+  .main__projects {
+    right: -34px; } }
+
+@media (min-width: 300px) and (max-width: 700px) {
   .analitics .mbr {
     display: block; }
   .info__title {
@@ -2908,7 +2919,7 @@ input:checked + span:after {
     padding-top: 120px;
     overflow-y: auto; }
   .popup__notebook {
-    width: 292px;
+    width: 380px;
     top: 284px;
     right: -91px; }
   .menu__link {
@@ -2960,7 +2971,9 @@ input:checked + span:after {
     padding-top: 0px;
     width: 100%; }
   .popupwork__right {
-    height: auto; } }
+    height: auto; }
+  .brif__left {
+    max-width: 320px; } }
 
 @media (max-width: 500px) {
   .popup__description {
@@ -3294,7 +3307,7 @@ input:checked + span:after {
   .slide.active {
     z-index: 40; } }
 
-@media (min-width: 320px) and (max-width: 700px) {
+@media (min-width: 300px) and (max-width: 700px) {
   .slider {
     height: -webkit-calc(400px - 5vw);
     height: calc(400px - 5vw); } }
@@ -3442,7 +3455,7 @@ input:checked + span:after {
     -webkit-background-size: auto 77%;
     background-size: auto 77%; } }
 
-@media (min-width: 320px) and (max-width: 700px) {
+@media (min-width: 300px) and (max-width: 700px) {
   .sites .info__text {
     max-width: 100%; }
   .brand__pic {
@@ -3548,7 +3561,7 @@ input:checked + span:after {
     padding-top: 25px;
     padding-bottom: 25px; } }
 
-@media (min-width: 320px) and (max-width: 700px) {
+@media (min-width: 300px) and (max-width: 700px) {
   .works .mbr {
     display: block; }
   h2 {
