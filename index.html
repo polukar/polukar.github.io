@@ -4,184 +4,815 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <meta name="description" content=""/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="HandheldFriendly" content="True"/>
+    <meta http-equiv="Cache-Control" content="no-cache"/>
+    <title>Раскрываем вашу супер силу в Digital среде</title>
     <link rel="stylesheet" href="./fonts/fonts.css"/>
     <link rel="stylesheet" href="./css/libscss.css"/>
     <link rel="stylesheet" href="./css/main.css"/>
-    <link rel="icon" type="image/png" href="./favicon.png"/>
-    <title>За Буйки </title>
+    <link rel="icon" href="./images/favicon.png"/>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpy6p1CNvSBHwzI3qLEKoMJyHJ5I6Yydc" async="async" defer="defer"></script>
   </head>
-  <body>
-    <div class="wrap">
-      <header class="header">
-        <div class="container"> 
-          <div class="header__wrap"><a class="header__link" href="#">расписание </a><a class="header__link header__link-logo" href="index.html">за буйки  </a><a class="header__link __callback" href="#">вступить в клуб </a>
-            <div class="burger"><img src="./images/burger.svg" alt=""/></div>
-          </div>
-        </div>
-      </header>
-      <div class="main">
-        <div class="container">
-          <div class="events__slider"><img src="./images/slide.jpg" srcset="./images/slide@2x.jpg 2x" alt=""/><img src="./images/slide.jpg" srcset="./images/slide@2x.jpg 2x" alt=""/><img src="./images/slide.jpg" srcset="./images/slide@2x.jpg 2x" alt=""/></div>
-          <div class="main__top">
-            <div class="main__top-left">Gilrs Club, <br>где мы идем <br>на встречу <br>приключениям</div>
-            <div class="main__top-center"><img src="./images/foto_main1.png" srcset="./images/foto_main1@2x.png 2x" alt=""/></div>
-            <div class="main__top-right">
-              <p>Осталось 2 места <br>на встречу в субботу <br>Жми!</p>
-            </div>
-            <div class="nav-container">
-              <div class="nav">
-                <div class="nav-wrap"><a class="nav__link" href="#">Путешествия</a></div>
-                <div class="nav-wrap"><a class="nav__link" href="#">Дети</a></div>
-                <div class="nav-wrap"><a class="nav__link" href="#">Лекции и встречи</a></div>
-                <div class="nav-wrap"><a class="nav__link" href="#">Искусство и мастерклассы</a></div>
-                <div class="nav-wrap"><a class="nav__link" href="#">Книжный клуб</a></div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="main__bottom">
-          <div class="container">
-            <div class="main__bottom-left">
-              <div>
-                <p>Gilrs Club</p><span>
-                   Мы – сообщество девушек, <br>классно проводим время, <br>общаемся и дружим.<br><a href="#">Подробнее о нас</a></span>
-              </div>
-            </div>
-            <div class="main__bottom-center"><img src="./images/foto_main2.png" srcset="./images/foto_main2@2x.png 2x" alt=""/></div>
-          </div>
-          <div class="main__bottom-right"><img src="./images/foto_main3.png" srcset="./images/foto_main3@2x.png 2x" alt=""/></div>
-        </div>
-        <div class="main__events">
-          <div class="container"><a class="main__event" href="">
-              <div class="main__event-pic"><img src="./images/foto_main1.png" srcset="./images/foto_main1@2x.png 2x" alt=""/></div>
-              <div class="main__event-text">Поездка в Берлин, декабрь 2019</div></a><a class="main__event" href="">
-              <div class="main__event-pic"><img src="./images/foto_main1.png" srcset="./images/foto_main1@2x.png 2x" alt=""/></div>
-              <div class="main__event-text">Поездка в Берлин, декабрь 2019</div></a><a class="main__event" href="">
-              <div class="main__event-pic"><img src="./images/foto_main1.png" srcset="./images/foto_main1@2x.png 2x" alt=""/></div>
-              <div class="main__event-text">Поездка в Берлин, декабрь 2019</div></a></div>
-        </div>
-      </div>
-      <div class="main-mobile-btns">
-        <div class="container"><a class="btn --black">О нас</a><a class="btn --red">Расписание событий</a></div>
-      </div>
-      <footer class="footer --red">
-        <div class="container">
-          <div class="footer__wrap"><span class="footer__link">Москва</span><a class="footer__link" href="#"></a><a class="footer__link footer__link--red __socials" href="#">Соцсети и общий чат</a></div>
-        </div>
-      </footer>
-    </div>
-    <div class="popup --socials">
-      <div class="popup__bg"></div>
-      <div class="popup__close"><img src="./images/close.svg" alt=""/></div>
-      <div class="popup__panel">
-        <div class="mobile__nav"><a class="header__link" href="#">расписание </a><a class="header__link __callback" href="#">вступить в клуб </a></div>
-        <div class="socials">
-          <div><a class="socilas__link" href="#">Инстаграм</a></div>
-          <div><a class="socilas__link" href="#">Телеграм с анонсами</a></div>
-          <div><a class="socilas__link" href="#">Детский чат</a></div>
-          <div><a class="socilas__link" href="#">Общий чат</a></div>
-          <div><a class="socilas__link" href="#">Чат книжного клуба</a></div>
-          <div><a class="socilas__link" href="#">hi@zaebki.ru</a></div>
-        </div>
+  <body ontouchstart="">
+    <div class="preloader">
+      <div class="preloader__back"><img src="./images/prel_b.svg" alt=""/></div>
+      <div class="preloader__front">
+        <div class="preloader__front-wrap"><img src="./images/prel_f.svg" alt=""/></div>
       </div>
     </div>
+    <header class="header flex">
+      <div class="header__nav">
+        <div class="logo"><img src="./images/logo.svg" alt=""/></div>
+      </div><a class="phone" href="tel:89219002192">8 (921) 900-21-92</a>
+    </header>
+    <div class="burger"></div>
+    <section class="main">
+      <div class="main__center">
+        <div class="container">
+          <h1 class="main__title">Раскрываем Вашу<br class="mbr"> супер <br>силу в<br class="mbr">  Digital среде</h1>
+          <p class="title-description main__description">Мы разрабатываем уникальные<br class="mbr"> продающие сайты, <br>качественно<br class="mbr"> упаковываем и продвигаем<br class="mbr"> бренды в Интернете.</p>
+          <div class="main__btns"><a class="btn --blue __callback" href="#">Оставить заявку</a><a class="download" href="" download="download" target="_blink">Презентация и кейсы</a></div>
+          <div class="main__canvas"><svg style="display: none" class="circle__canvas" width="1001" height="1001" viewBox="0 0 1001 1001" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="0.625" y="0.196167" width="1000" height="1000" fill="transparent"/>
+<path d="M488 219C642.087 219 767 343.913 767 498C767 652.087 642.087 777 488 777C333.913 777 209 652.087 209 498C209 343.913 333.913 219 488 219Z" fill="#F8FAFD"/>
+</svg>
+<canvas class="jelly-circle-canvas" width="1000" height="1000"></canvas>
+          </div>
+        </div>
+      </div>
+      <div class="main__projects">
+        <div class="container flex">
+          <div class="main__projects-wrap"><span>0+</span>
+            <p>Проектов в год</p>
+          </div>
+        </div>
+      </div><a class="pagedown" href="#works"><span>Листайте вниз</span></a>
+      <div class="socials">
+        <div class="socials__wrap flex"><a class="socials__link" href="#">Behance</a><a class="socials__link" href="#">Instagram</a><a class="socials__link" href="#">Telegram</a></div>
+      </div>
+    </section>
+    <section class="works" id="works">
+      <div class="container">
+        <h2>Некоторые наши <br class="mbr">работы</h2>
+        <div class="work">
+          <div class="work__info">
+            <div class="work__info-wrap">
+              <div class="work__title">Дизайн макет сайта для <br>продукта Рекосма</div>
+              <div class="work__tags-wrap">
+                <div class="work__tags">
+                  <div class="work__tag">Дизайн сайта</div>
+                </div>
+              </div><a class="work__link" href="#">Подробнее о проекте</a>
+            </div>
+          </div>
+          <div class="work__pic"><img src="./images/works/1.png" srcset="./images/works/1@2x.png 2x" alt=""/></div>
+        </div>
+        <div class="work">
+          <div class="work__info">
+            <div class="work__info-wrap">
+              <div class="work__title">Логотип и фирменный стиль <br>для компании ЕТС</div>
+              <div class="work__tags-wrap">
+                <div class="work__tags">
+                  <div class="work__tag">Брендинг</div>
+                  <div class="work__tag">Фирменный стиль</div>
+                  <div class="work__tag">Презентация</div>
+                  <div class="work__tag">Стратегия продвижения</div>
+                </div>
+              </div><a class="work__link" href="#">Подробнее о проекте</a>
+            </div>
+          </div>
+          <div class="work__pic"><img src="./images/works/2.png" srcset="./images/works/2@2x.png 2x" alt=""/></div>
+        </div>
+        <div class="work">
+          <div class="work__info">
+            <div class="work__info-wrap">
+              <div class="work__title">Логотип и дизайн сайта <br>для кондитерской Cake Story</div>
+              <div class="work__tags-wrap">
+                <div class="work__tags">
+                  <div class="work__tag">Брендинг</div>
+                  <div class="work__tag">Фирменный стиль</div>
+                  <div class="work__tag">Сайт</div>
+                </div>
+              </div><a class="work__link" href="#">Подробнее о проекте</a>
+            </div>
+          </div>
+          <div class="work__pic"><img src="./images/works/3.png" srcset="./images/works/3@2x.png 2x" alt=""/></div>
+        </div>
+        <div class="work">
+          <div class="work__info">
+            <div class="work__info-wrap">
+              <div class="work__title">Логотип и фирменный стиль <br>для компании VideoGid</div>
+              <div class="work__tags-wrap">
+                <div class="work__tags">
+                  <div class="work__tag">Логотип</div>
+                  <div class="work__tag">Фирменный стиль</div>
+                </div>
+              </div><a class="work__link" href="#">Подробнее о проекте</a>
+            </div>
+          </div>
+          <div class="work__pic"><img src="./images/works/4.png" srcset="./images/works/4@2x.png 2x" alt=""/></div>
+        </div>
+        <div class="work">
+          <div class="work__info">
+            <div class="work__info-wrap">
+              <div class="work__title">Дизайн макет сайта <br>для компании Линлайн</div>
+              <div class="work__tags-wrap">
+                <div class="work__tags">
+                  <div class="work__tag">Дизайн сайта</div>
+                </div>
+              </div><a class="work__link" href="#">Подробнее о проекте</a>
+            </div>
+          </div>
+          <div class="work__pic"><img src="./images/works/5.png" srcset="./images/works/5@2x.png 2x" alt=""/></div>
+        </div>
+        <div class="work">
+          <div class="work__info">
+            <div class="work__info-wrap">
+              <div class="work__title">Логотип и дизайн сайта <br>для компании Amarid Electro</div>
+              <div class="work__tags-wrap">
+                <div class="work__tags">
+                  <div class="work__tag">Логотип</div>
+                  <div class="work__tag">Дизайн сайта</div>
+                </div>
+              </div><a class="work__link" href="#">Подробнее о проекте</a>
+            </div>
+          </div>
+          <div class="work__pic"><img src="./images/works/6.png" srcset="./images/works/6@2x.png 2x" alt=""/></div>
+        </div>
+        <div class="work">
+          <div class="work__info">
+            <div class="work__info-wrap">
+              <div class="work__title">Дизайна сайта для <br>компании Имеем Право</div>
+              <div class="work__tags-wrap">
+                <div class="work__tags">
+                  <div class="work__tag">Дизайн сайта</div>
+                </div>
+              </div><a class="work__link" href="#">Подробнее о проекте</a>
+            </div>
+          </div>
+          <div class="work__pic"><img src="./images/works/7.png" srcset="./images/works/7@2x.png 2x" alt=""/></div>
+        </div>
+      </div>
+    </section>
+    <section class="analitics">
+      <div class="container flex">
+        <div class="analitics__left">
+          <h2>Глубокая <br>аналитика</h2>
+          <p class="title-description analitics__descriprion">Исследуем, проводим анализ, <br>делаем выводы и действуем</p>
+          <div class="info --blue --circle">
+            <div class="info__title">Ситуационный анализ</div>
+            <p class="info__text">Анализ сильных и слабых <br>сторон проекта, инструментов <br>привлечения клиента и <br>рентабельности работы <br>рекламной кампании. </p>
+          </div>
+          <div class="info --white --chess">
+            <div class="info__title">Анализ конкурентов</div>
+            <p class="info__text">Общий анализ рынка, выявление<br> наиболее сильных конкурентов. На<br> основеиполученных метрик подготовка<br>  УТП и выбор наиболее свободных<br>  площадки для продвижения.</p>
+          </div>
+        </div>
+        <div class="analitics__right">
+          <div class="orange-cicle --medium --analitics"></div>
+          <div class="analitics__pic"> <img src="./images/ipad.png" srcset="./images/ipad@2x.png 2x" alt=""/></div>
+          <div class="analitics__line"><img src="./images/line.svg" alt=""/></div>
+          <div class="info --transparent --analitics">
+            <div class="info__title">Исследование рынка</div>
+            <p class="info__text">Комплекс мероприятий на<br class="mbr"> основе которых <br>мы получаем<br class="mbr"> реальные данные о состоянии  <br class="mbr"> <br>рынка и покупательской<br class="mbr"> способности клиента.</p>
+            <p class="info__text"><b>Инструменты:</b> Тематические<br class="mbr"> форумы, глубинные <br>интервью, <br class="mbr">опросы потребителя, google<br class="mbr"> сервисы, <br>яндекс сервисы,<br class="mbr"> социальные сети.  </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="brand">
+      <div class="container flex">
+        <div class="brand__left">
+          <div class="orange-cicle --large --brand"></div>
+          <div class="iphone-brand"><img src="./images/iphone-brand.png" srcset="./images/iphone-brand@2x.png 2x" alt=""/></div>
+          <div class="info --transparent --brand">
+            <div class="info__title">Веб-дизайн</div>
+            <p class="info__text">Адаптивный, современный, <br>не таксичный дизайн, <br>который положительно <br>влияет на продажи и <br>бренд эквити.</p>
+          </div>
+          <div class="info --blue --go --mobile">
+            <div class="info__title">Логотипы и фирменный стиль</div>
+            <p class="info__text">Наши логотипы повышают лояльность <br>клиентов, узнаваемость бренда, что <br>положительно сказывается на <br>продвижении и рекламном <br>бюджете.</p>
+          </div>
+        </div>
+        <div class="brand__right">
+          <h2>Брендинг <br>и дизайн</h2>
+          <p class="title-description brand__descriprion">Превращаем интеллект в магию</p>
+          <div class="info --blue --go">
+            <div class="info__title">Логотипы и фирменный стиль</div>
+            <p class="info__text">Наши логотипы повышают лояльность <br>клиентов, узнаваемость бренда, что <br>положительно сказывается на <br>продвижении и рекламном <br>бюджете.</p>
+          </div>
+          <div class="info --transparent --brand --mobile">
+            <div class="info__title">Веб-дизайн</div>
+            <p class="info__text">Адаптивный, современный, <br>не таксичный дизайн, <br>который положительно <br>влияет на продажи и <br>бренд эквити.</p>
+          </div>
+        </div>
+      </div>
+      <div class="brand__logos">
+        <div class="container">
+          <h3>Некоторые <br>наши логотипы:</h3>
+          <div class="brands-wrap">
+            <div class="brans__logos flex">
+              <div class="brand__logo"><img src="./images/logos/1.svg" width="136" alt=""/></div>
+              <div class="brand__logo"><img src="./images/logos/6.svg" width="127" alt=""/></div>
+              <div class="brand__logo"><img src="./images/logos/5.svg" width="94" alt=""/></div>
+              <div class="brand__logo"><img src="./images/logos/4.svg" width="147" alt=""/></div>
+              <div class="brand__logo"><img src="./images/logos/2.svg" width="133" alt=""/></div>
+              <div class="brand__logo"><img src="./images/logos/3.svg" width="81" alt=""/></div>
+              <div class="brand__logo"><img src="./images/logos/7.svg" width="125" alt=""/></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sites">
+      <div class="container flex">
+        <div class="sites__left">
+          <h2>Веб-сайты <br>и сервисы</h2>
+          <p class="title-description sites__descriprion">Удобные и понятные веб-ресурс <br>для коммуникации с клиентом</p>
+          <div class="info --white --pc">
+            <div class="info__title">Сайты и сервисы <br>любой сложности</div>
+            <p class="info__text">Продающие лендинги <br>Корпоративные сайты <br>Интернет-магазины <br>Новостные ресурсы</p>
+          </div>
+          <div class="info --blue chart">
+            <div class="info__title">Подключение CMS систем <br>и сервисов аналитики</div>
+            <p class="info__text">Мониторинг и наполнение сайтов, <br>настройка целей и А/Б тестирование <br>на основе метрик.</p>
+            <div class="info__icons flex --sites"><img src="./images/wp.svg" alt=""/><img src="./images/bitrix.svg" alt=""/></div>
+          </div>
+        </div>
+        <div class="sites__right">
+          <div class="orange-cicle --medium --sites"></div>
+          <div class="brand__pic"><img src="./images/macbook.png" srcset="./images/macbook@x2.png 2x" alt=""/></div>
+          <div class="info --transparent --sites">
+            <div class="info__title">Адаптивные и <br>кроссбраузерные</div>
+            <p class="info__text">Корректно работают во всех <br>браузерах и на всех <br>устройствах</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="marketing">
+      <div class="container flex">
+        <div class="marketing__left">
+          <div class="orange-cicle --small --marketing"></div>
+          <div class="marketing__yandex"><img src="./images/m-left.png" alt=""/></div>
+          <div class="info --transparent --marketing">
+            <div class="info__title">Контекстная реклама</div>
+            <p class="info__text">Сбалансированная рекламная кампания <br>от сертифицированных Яндексом <br>специалистов. Работа не с ключевыми <br>запросами, а с целевой аудиторие и <br>задачами проекта.</p>
+            <div class="info__icons --marketing">
+              <div class="info__ico ya"><img src="./images/ya.png" srcset="./images/ya@2x.png 2x" alt=""/></div>
+              <div class="info__ico google"><img src="./images/google.png" srcset="./images/google@2x.png 2x" alt=""/></div>
+            </div>
+          </div>
+        </div>
+        <div class="marketing__right">
+          <h2>Комплексный <br>маркетинг</h2>
+          <p class="title-description marketing__descriprion">Пашем за весь колхоз!</p>
+          <div class="info --grey --phone">
+            <div class="info__title">Полноценный SMM</div>
+            <p class="info__text">Медиа планирование <br>Разработка контента <br>Интерактивный постинг <br>Тестирование гипотез  <br>Работа с возражениями</p>
+          </div>
+          <div class="info --blue --socials">
+            <div class="info__title">Таргетированная реклама</div>
+            <p class="info__text">Действительно эффективный таргет<br> с проработкой целевой аудитории<br>  и воронки дальнейшей обработки<br> клиента</p>
+            <div class="info__icons --socials flex">
+              <div class="info__ico"><img class="in" src="./images/in.svg" alt=""/></div>
+              <div class="info__ico"><img class="fb" src="./images/fb.svg" alt=""/></div>
+              <div class="info__ico"><img class="vk" src="./images/vk.svg" alt=""/></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="report">
+      <div class="container flex ac">
+        <div class="report__left">
+          <h2>Отзывы <br>наших <br>клиентов</h2>
+          <div class="slider-tabs">
+            <div class="slider-tab active">Капитал Право</div>
+            <div class="slider-tab">Алтуфьево</div>
+            <div class="slider-tab">Гринарт</div>
+            <div class="slider-tab">Union Pipe</div>
+            <div class="slider-tab">Wolfa</div>
+            <div class="slider-tab">Бауфасад </div>
+          </div>
+        </div>
+        <div class="report__right">
+          <div class="orange-cicle --medium --report"></div>
+          <div class="slider__nav">
+            <div class="slider__prev"><svg xmlns="http://www.w3.org/2000/svg" width="6.001" height="11" viewBox="0 0 6.001 11">
+<g id="arrow-left" transform="translate(-894 -7777)">
+<g id="Векторный_смарт-объект_копия_7" data-name="Векторный смарт-объект копия 7" transform="matrix(-1, 0, 0, -1, 908.401, 7794.156)">
+<g id="Group_4" data-name="Group 4">
+<path id="Path_9" data-name="Path 9" d="M14.4,11.656l-.506-.6-4.1-4.9L8.4,7.365,12,11.656,8.4,15.946l1.39,1.209,4.1-4.9Z"/>
+</g>
+</g>
+<path id="Color_Overlay" data-name="Color Overlay" d="M894.5,7783.1l-.5-.6.5-.606,4.106-4.894,1.39,1.209-3.6,4.291,3.6,4.29-1.39,1.21Z" fill="#e8e8e8"/>
+</g>
+</svg>
+            </div>
+            <div class="slider__next"><svg xmlns="http://www.w3.org/2000/svg" width="6.001" height="11" viewBox="0 0 6.001 11">
+<g id="arrow-left" transform="translate(900.001 7788) rotate(180)">
+<g id="Векторный_смарт-объект_копия_7" data-name="Векторный смарт-объект копия 7" transform="matrix(-1, 0, 0, -1, 908.401, 7794.156)">
+<g id="Group_4" data-name="Group 4">
+<path id="Path_9" data-name="Path 9" d="M14.4,11.656l-.506-.6-4.1-4.9L8.4,7.365,12,11.656,8.4,15.946l1.39,1.209,4.1-4.9Z"/>
+</g>
+</g>
+<path id="Color_Overlay" data-name="Color Overlay" d="M894.5,7783.1l-.5-.6.5-.606,4.106-4.894,1.39,1.209-3.6,4.291,3.6,4.29-1.39,1.21Z" fill="#e8e8e8"/>
+</g>
+</svg>
+            </div>
+          </div>
+          <div class="slider">
+            <div class="slide active">
+              <div class="slide__photo"> <img src="./images/report.png" srcset="./images/report@2x.png 2x" alt=""/></div>
+              <div class="slide__info">
+                <div class="slide__logo"><img src="./images/slide-logo.svg" alt=""/></div>
+                <p class="slide__text">Благодарю студию “Огонь” и лично <br>Павла за добросовестный труд, <br>инициативу и своевременное <br>выполнение задач.</p>
+              </div><a class="open-mobile-report" href="./images/report.png" data-fancybox="gallery">Читать отзыв</a>
+            </div>
+            <div class="slide slide-next">
+              <div class="slide__photo"> <img src="./images/report.png" srcset="./images/report@2x.png 2x" alt=""/></div>
+              <div class="slide__info">
+                <div class="slide__logo"><img src="./images/logos2/etc.svg" alt=""/></div>
+                <p class="slide__text">Компания ЕТС выражает <br>благодарность за помощь <br>в оформлении дизайна <br>и фирменного стиля.</p>
+              </div><a class="open-mobile-report" href="./images/report.png" data-fancybox="gallery">Читать отзыв</a>
+            </div>
+            <div class="slide slide-next-next">
+              <div class="slide__photo"> <img src="./images/report.png" srcset="./images/report@2x.png 2x" alt=""/></div>
+              <div class="slide__info">
+                <div class="slide__logo"><img src="./images/logos2/unionpipe.svg" alt=""/></div>
+                <p class="slide__text">Рекомендуем команду Огонь <br>как добросовестных и опытных <br>маркетологов. Работаем не первый <br>год по контекстной рекламе. </p>
+              </div><a class="open-mobile-report" href="./images/report.png" data-fancybox="gallery">Читать отзыв</a>
+            </div>
+            <div class="slide"> 
+              <div class="slide__photo"> <img src="./images/report.png" srcset="./images/report@2x.png 2x" alt=""/></div>
+              <div class="slide__info">
+                <div class="slide__logo"><img src="./images/logos2/baufasad.svg" alt=""/></div>
+                <p class="slide__text">Команда огонь создала и запустила <br>сайт Ardex.shop от идеи до реализации <br>с нуля. Все организационные моменты <br>взяли на себя. </p>
+              </div><a class="open-mobile-report" href="./images/report.png" data-fancybox="gallery">Читать отзыв</a>
+            </div>
+            <div class="slide"> 
+              <div class="slide__photo"> <img src="./images/report.png" srcset="./images/report@2x.png 2x" alt=""/></div>
+              <div class="slide__info">
+                <div class="slide__logo"><img src="./images/slide-logo.svg" alt=""/></div>
+                <p class="slide__text">Благодарю студию “Огонь” и лично <br>Павла за добросовестный труд, <br>инициативу и своевременное <br>выполнение задач. </p>
+              </div><a class="open-mobile-report" href="./images/report.png" data-fancybox="gallery">Читать отзыв</a>
+            </div>
+            <div class="slide slide-left">
+              <div class="slide__photo"> <img src="./images/report.png" srcset="./images/report@2x.png 2x" alt=""/></div>
+              <div class="slide__info">
+                <div class="slide__logo"><img src="./images/slide-logo.svg" alt=""/></div>
+                <p class="slide__text">Благодарю студию “Огонь” и лично <br>Павла за добросовестный труд, <br>инициативу и своевременное <br>выполнение задач. </p>
+              </div><a class="open-mobile-report" href="./images/report.png" data-fancybox="gallery">Читать отзыв</a>
+            </div>
+          </div>
+        </div>
+        <div class="report__logos">
+          <div class="report__logo">
+            <p>Наши <br>клиенты:</p>
+          </div>
+          <div class="report__logo"><img src="./images/logos2/baufasad.svg" width="126" alt=""/></div>
+          <div class="report__logo"><img src="./images/logos2/pivorama.svg" width="82" alt=""/></div>
+          <div class="report__logo"><img src="./images/logos2/vangog.svg" width="116" alt=""/></div>
+          <div class="report__logo"><img src="./images/logos2/lithofin.svg" width="84" alt=""/></div>
+          <div class="report__logo"><img src="./images/logos2/dom.svg" width="86" alt=""/></div>
+          <div class="report__logo"><img src="./images/logos2/ardex.svg" width="70" alt=""/></div>
+          <div class="report__logo"><img src="./images/logos2/any.svg" width="52" alt=""/></div>
+        </div>
+      </div>
+    </section>
+    <section class="contacts">
+      <div class="container flex">
+        <div class="contacts__left">
+          <h2>Есть проект <br>для нас?</h2>
+          <div class="contacts__links">
+            <div><a class="phone --contacts" href="tel:89219002192">8 (921) 900-21-92</a></div>
+            <div><a class="mail" href="mailto:mail@ogon.site">mail@ogon.site</a></div>
+            <p class="address">Россия, Калининградская область, <br>г. Зеленоградск, ул. Тургенева 14, офис 4.</p>
+          </div>
+        </div>
+        <div class="contacts__right">
+          <div class="contacts__btns"><a class="btn --blue __callback" href="#">Оставить заявку</a><a class="btn --gradient __brif" href=""> <span>Заполнить бриф</span></a></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="contacts__socials-title">Следите за нашими успехами в соц сетях:</div>
+        <div class="contacts__socials"><a class="contacts__social" href="">Behance </a><a class="contacts__social" href="">Instagram</a><a class="contacts__social" href="">Telegram</a></div>
+        <div class="orange-cicle --large --contacts"><img src="./images/logo-footer.svg" alt=""/></div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container flex ac"><a class="footer__political" href="#">Политика конфиденциальности</a>
+        <div class="footer__copyright">Творческое объединение  Огонь © Все права защищены, 2020 г.</div>
+      </div>
+    </footer>
     <div class="popup --callback">
-      <div class="popup__bg"></div>
-      <div class="popup__close"><img src="./images/close.svg" alt=""/></div>
-      <div class="popup__panel">
-        <form class="form --error">
-          <div class="form__title">Вступить в клуб</div>
-          <label class="label__input">
-            <input type="text" placeholder="имя"/>
-          </label>
-          <label class="label__input">
-            <input type="text" placeholder="почта"/>
-          </label>
-          <label class="label__input">
-            <input type="text" placeholder="телефон"/>
-          </label>
-          <label class="label__input">
-            <input type="text" placeholder="Ссылка на FB или IG"/>
-          </label>
-          <div class="submit btn">
-            <button>Отправить заявку</button>
-          </div>
-          <div class="error btn">Заполни все поля      </div>
-        </form>
-      </div>
-    </div>
-    <div class="popup --goodmessage">
-      <div class="popup__bg"></div>
-      <div class="popup__close"><img src="./images/close.svg" alt=""/></div>
+      <div class="orange-cicle --medium --callback"></div>
       <div class="popup__panel">
         <div class="container">
-          <div class="goodmessage__title">Заявка отправлена</div>
-          <div class="goodmessage__pic"><img src="./images/goodmessage.png" srcset="./images/goodmessage@2x.png 2x" alt=""/></div>
-          <div class="goodmessage__text"> 
-            <p>Большое спасибо за заявку на вступление!<br> У нас закрытый клуб, поэтому нам нужно<br> проверить информацию перед приемом в<br> наши ряды.</p>
+          <h2>Оставить заявку</h2>
+          <p class="title-description popup__description">Оставьте заявку на <b>бесплатую</b> консультацию <br>и аудит Вашего проекта. Наш менеджер свяжется <br>с Вами в течении 20 минут.</p>
+          <form class="callback__form flex">
+            <div class="popup__label">
+              <input type="text" placeholder="Имя*"/>
+              <div class="input__ico"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+<g id="_1" data-name="1" transform="translate(-414 -422)">
+<g id="Векторный_смарт-объект" data-name="Векторный смарт-объект" transform="translate(409.767 415.877)">
+<path id="Path_4589" data-name="Path 4589" d="M10.131,6.125h.2c3.7-.081,3.135,4.466,1.932,6.554-.226.391-.5.769-.458,1.118.175,1.364,3.373,1.029,4.068,1.829.5.571.2,1.375.356,2.49-3.983-.034-8.1.068-12-.051.158-1.094-.132-1.877.356-2.439.764-.88,3.948-.429,4.068-1.88A2.178,2.178,0,0,0,8.2,12.678C6.923,10.464,6.506,6.038,10.131,6.125Z"/>
+</g>
+<path id="Color_Overlay" data-name="Color Overlay" d="M414,433.94c.158-1.093-.132-1.876.355-2.438.764-.88,3.949-.43,4.068-1.88a2.178,2.178,0,0,0-.457-1.067c-1.276-2.214-1.694-6.64,1.932-6.554h.2c3.7-.081,3.135,4.466,1.932,6.554-.226.392-.5.769-.458,1.119.175,1.363,3.373,1.029,4.068,1.829.5.571.2,1.374.356,2.489-1.519-.013-3.057-.006-4.6,0q-1.345.006-2.686.008C417.125,434,415.546,433.987,414,433.94Z" fill="#e4e4e4"/>
+</g>
+</svg>
+              </div>
+              <div class="input__border"></div>
+            </div>
+            <div class="popup__label">
+              <input type="text" placeholder="Номер телефона*"/>
+              <div class="input__ico"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+<g id="_2" data-name="2" transform="translate(-728 -422)">
+<g id="Векторный_смарт-объект_копия_5" data-name="Векторный смарт-объект копия 5" transform="translate(727.933 420.954)">
+<path id="Path_4591" data-name="Path 4591" d="M.853,1.494c.481-.48,1.932-.56,1.943-.306S4.1,4.258,4.115,4.512,3.26,5.631,3.007,5.885,4.7,8.334,4.737,8.375s2.24,1.982,2.491,1.731S8.347,8.987,8.6,9s3.071,1.307,3.325,1.318.174,1.462-.307,1.943c-.41.41-2.536,1.9-6.234-.761A11.731,11.731,0,0,1,3.363,9.757h0l0,0,0,0,0,0A11.714,11.714,0,0,1,1.614,7.728C-1.047,4.031.443,1.9.853,1.494Z"/>
+</g>
+<path id="Color_Overlay" data-name="Color Overlay" d="M733.318,432.453a11.759,11.759,0,0,1-2.021-1.741l0,0,0,0,0,0,0,0a11.712,11.712,0,0,1-1.741-2.021c-2.661-3.7-1.171-5.824-.76-6.234.481-.48,1.931-.56,1.943-.306s1.307,3.071,1.319,3.325-.855,1.119-1.109,1.372,1.694,2.449,1.731,2.49,2.24,1.982,2.491,1.732,1.119-1.12,1.372-1.109,3.071,1.308,3.325,1.319.174,1.462-.307,1.943a3.23,3.23,0,0,1-2.24.787A6.932,6.932,0,0,1,733.318,432.453Z" fill="#e4e4e4"/>
+</g>
+</svg>
+              </div>
+              <div class="input__border"></div>
+            </div>
+            <div class="popup__label">
+              <input type="text" placeholder="E-mail"/>
+              <div class="input__ico"><svg xmlns="http://www.w3.org/2000/svg" width="13.197" height="13.197" viewBox="0 0 13.197 13.197">
+<path id="Path_4600" data-name="Path 4600" d="M7.523-10.719C3.441-10.719.917-8.2.917-4.113c0,4.068,2.523,6.591,6.606,6.591V.52c-1.743,0-4.649-.6-4.649-4.633,0-4.052,2.905-4.664,4.649-4.664,2.951,0,4.649,1.7,4.649,4.664,0,1.774-.673,1.774-.917,1.774a.92.92,0,0,1-.917-.917v-.856A2.669,2.669,0,0,0,7.523-6.942,2.661,2.661,0,0,0,4.71-4.113a2.645,2.645,0,0,0,2.814,2.8,3.106,3.106,0,0,0,1.392-.306A2.814,2.814,0,0,0,11.255-.4c.673,0,2.86-.26,2.86-3.716C14.114-8.2,11.591-10.719,7.523-10.719Zm0,7.462c-.78,0-.872-.459-.872-.856,0-.413.092-.872.872-.872.765,0,.872.459.872.872C8.4-3.716,8.288-3.257,7.523-3.257Z" transform="translate(-0.917 10.719)" fill="#e4e4e4"/>
+</svg>
+              </div>
+              <div class="input__border"></div>
+            </div>
+            <div class="popup__label">
+              <input type="text" placeholder="Ваш вопрос"/>
+              <div class="input__ico"><svg xmlns="http://www.w3.org/2000/svg" width="7.775" height="12.326" viewBox="0 0 7.775 12.326">
+<path id="Path_4601" data-name="Path 4601" d="M8.615-8.917a3.391,3.391,0,0,0-.772-2.133,4.006,4.006,0,0,0-3.207-1.276,4.124,4.124,0,0,0-2.217.655A3.846,3.846,0,0,0,.84-8.85H3.258a1.179,1.179,0,0,1,.453-1.041,1.676,1.676,0,0,1,1.024-.285,1.481,1.481,0,0,1,1.243.521A1.3,1.3,0,0,1,6.2-8.85,2.073,2.073,0,0,1,5.626-7.3c-.89.94-1.377,1.058-1.8,1.914a4.3,4.3,0,0,0-.521,2.116H5.726a1.976,1.976,0,0,1,.336-1.343A10.648,10.648,0,0,1,7.187-5.861,4.444,4.444,0,0,0,8.615-8.917ZM3.325,0h2.4V-2.418h-2.4Z" transform="translate(-0.84 12.326)" fill="#e4e4e4"/>
+</svg>
+              </div>
+              <div class="input__border"></div>
+            </div>
+            <div class="submit">
+              <button class="btn --blue">Оставить заявку</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="popup --menu">
+      <div class="orange-cicle --medium --menu"></div>
+      <div class="popup__notebook"><img src="./images/menu.png" srcset="./images/menu@2x.png 2x" alt=""/></div>
+      <div class="popup__panel">
+        <div class="container">
+          <h2>Меню</h2>
+          <div class="menu flex">
+            <div class="menu__link"><a href="#works">Наши работы</a></div>
+            <div class="menu__link"><a href="#marketing">Комплексный маретинг</a></div>
+            <div class="menu__link"><a href="#analitics">Глубокая аналитика</a></div>
+            <div class="menu__link"><a href="#reports">Отзывы наших клиентов</a></div>
+            <div class="menu__link"><a href="#brand">Брендинг и дизайн</a></div>
+            <div class="menu__link"><a href="#contacts">Контакты</a></div>
+            <div class="menu__link"><a href="#sites">Веб-сайты и сервисы</a></div>
+          </div><a class="btn --blue __menu_callback" href="#">Оставить заявку</a><a class="btn --gradient __menu_brif" href="#"> <span>Заполнить бриф</span></a>
+        </div>
+      </div>
+    </div>
+    <div class="popup --brif">
+      <div class="popup__panel">
+        <div class="orange-cicle --medium --brif"></div>
+        <div class="container">
+          <h2>Есть проект <br>для нас?</h2>
+          <p class="title-description brif__description">Оставьте заявку, или свяжитесь <br>с нами по телефону: <a href="tel:+79219002192"> +7 (921) 900-21-92</a></p>
+          <form class="brif__form">
+            <div class="form__title">Необходимые услуги:</div>
+            <div class="checkboxs">
+              <label class="checkbox">
+                <input type="checkbox" checked="checked"/><span></span>Аналитика
+              </label>
+              <label class="checkbox">
+                <input type="checkbox"/><span></span>Брендинг
+              </label>
+              <label class="checkbox">
+                <input type="checkbox"/><span></span>Дизайн
+              </label>
+              <label class="checkbox">
+                <input type="checkbox"/><span></span>Сайт
+              </label>
+              <label class="checkbox">
+                <input type="checkbox"/><span></span>Продвижение
+              </label>
+              <label class="checkbox">
+                <input type="checkbox"/><span></span>Все под ключ
+              </label>
+            </div>
+            <div class="form__title">Ориентировочный бюджет:</div>
+            <div class="checkboxs">
+              <label class="checkbox">
+                <input type="radio" name="summ"/><span></span>50-200 тыс.руб.
+              </label>
+              <label class="checkbox">
+                <input type="radio" name="summ"/><span></span>200-400 тыс.руб.
+              </label>
+              <label class="checkbox">
+                <input type="radio" name="summ"/><span></span>400-600 тыс.руб.
+              </label>
+              <label class="checkbox">
+                <input type="radio" name="summ"/><span></span>От 600 тыс.руб.
+              </label>
+            </div>
+            <div class="brif__list">
+              <div class="form__title">Опишите задачу:</div>
+              <div class="popup__label popup__label--comment">
+                <input type="text" placeholder="Несколько слов о проекте"/>
+                <div class="input__ico"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+<path id="Path_4570" data-name="Path 4570" d="M15.429,8.062c0,3.263-3.134,5.921-7.009,5.921a8.25,8.25,0,0,1-2.29-.328.628.628,0,0,0-.431.052l-2.239,1.4a.228.228,0,0,1-.344-.242l.327-2.348a.531.531,0,0,0-.172-.449A5.416,5.416,0,0,1,1.429,8.062c0-3.263,3.134-5.921,7.009-5.921C12.3,2.141,15.429,4.8,15.429,8.062Z" transform="translate(-1.429 -2.141)" fill="#e4e4e4"/>
+</svg>
+                </div>
+                <div class="input__border"></div>
+              </div>
+              <div class="form__title">Контакты:</div>
+              <div class="brif__lebels flex">
+                <div class="brif__left flex">
+                  <div class="popup__label">
+                    <input type="text" placeholder="Имя*"/>
+                    <div class="input__ico"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+<g id="_1" data-name="1" transform="translate(-414 -422)">
+<g id="Векторный_смарт-объект" data-name="Векторный смарт-объект" transform="translate(409.767 415.877)">
+<path id="Path_4589" data-name="Path 4589" d="M10.131,6.125h.2c3.7-.081,3.135,4.466,1.932,6.554-.226.391-.5.769-.458,1.118.175,1.364,3.373,1.029,4.068,1.829.5.571.2,1.375.356,2.49-3.983-.034-8.1.068-12-.051.158-1.094-.132-1.877.356-2.439.764-.88,3.948-.429,4.068-1.88A2.178,2.178,0,0,0,8.2,12.678C6.923,10.464,6.506,6.038,10.131,6.125Z"/>
+</g>
+<path id="Color_Overlay" data-name="Color Overlay" d="M414,433.94c.158-1.093-.132-1.876.355-2.438.764-.88,3.949-.43,4.068-1.88a2.178,2.178,0,0,0-.457-1.067c-1.276-2.214-1.694-6.64,1.932-6.554h.2c3.7-.081,3.135,4.466,1.932,6.554-.226.392-.5.769-.458,1.119.175,1.363,3.373,1.029,4.068,1.829.5.571.2,1.374.356,2.489-1.519-.013-3.057-.006-4.6,0q-1.345.006-2.686.008C417.125,434,415.546,433.987,414,433.94Z" fill="#e4e4e4"/>
+</g>
+</svg>
+                    </div>
+                    <div class="input__border"></div>
+                  </div>
+                  <div class="popup__label">
+                    <input type="text" placeholder="Номер телефона*"/>
+                    <div class="input__ico"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+<g id="_2" data-name="2" transform="translate(-728 -422)">
+<g id="Векторный_смарт-объект_копия_5" data-name="Векторный смарт-объект копия 5" transform="translate(727.933 420.954)">
+<path id="Path_4591" data-name="Path 4591" d="M.853,1.494c.481-.48,1.932-.56,1.943-.306S4.1,4.258,4.115,4.512,3.26,5.631,3.007,5.885,4.7,8.334,4.737,8.375s2.24,1.982,2.491,1.731S8.347,8.987,8.6,9s3.071,1.307,3.325,1.318.174,1.462-.307,1.943c-.41.41-2.536,1.9-6.234-.761A11.731,11.731,0,0,1,3.363,9.757h0l0,0,0,0,0,0A11.714,11.714,0,0,1,1.614,7.728C-1.047,4.031.443,1.9.853,1.494Z"/>
+</g>
+<path id="Color_Overlay" data-name="Color Overlay" d="M733.318,432.453a11.759,11.759,0,0,1-2.021-1.741l0,0,0,0,0,0,0,0a11.712,11.712,0,0,1-1.741-2.021c-2.661-3.7-1.171-5.824-.76-6.234.481-.48,1.931-.56,1.943-.306s1.307,3.071,1.319,3.325-.855,1.119-1.109,1.372,1.694,2.449,1.731,2.49,2.24,1.982,2.491,1.732,1.119-1.12,1.372-1.109,3.071,1.308,3.325,1.319.174,1.462-.307,1.943a3.23,3.23,0,0,1-2.24.787A6.932,6.932,0,0,1,733.318,432.453Z" fill="#e4e4e4"/>
+</g>
+</svg>
+                    </div>
+                    <div class="input__border"></div>
+                  </div>
+                  <div class="popup__label">
+                    <input type="text" placeholder="E-mail"/>
+                    <div class="input__ico"><svg xmlns="http://www.w3.org/2000/svg" width="13.197" height="13.197" viewBox="0 0 13.197 13.197">
+<path id="Path_4600" data-name="Path 4600" d="M7.523-10.719C3.441-10.719.917-8.2.917-4.113c0,4.068,2.523,6.591,6.606,6.591V.52c-1.743,0-4.649-.6-4.649-4.633,0-4.052,2.905-4.664,4.649-4.664,2.951,0,4.649,1.7,4.649,4.664,0,1.774-.673,1.774-.917,1.774a.92.92,0,0,1-.917-.917v-.856A2.669,2.669,0,0,0,7.523-6.942,2.661,2.661,0,0,0,4.71-4.113a2.645,2.645,0,0,0,2.814,2.8,3.106,3.106,0,0,0,1.392-.306A2.814,2.814,0,0,0,11.255-.4c.673,0,2.86-.26,2.86-3.716C14.114-8.2,11.591-10.719,7.523-10.719Zm0,7.462c-.78,0-.872-.459-.872-.856,0-.413.092-.872.872-.872.765,0,.872.459.872.872C8.4-3.716,8.288-3.257,7.523-3.257Z" transform="translate(-0.917 10.719)" fill="#e4e4e4"/>
+</svg>
+                    </div>
+                    <div class="input__border"></div>
+                  </div>
+                  <div class="popup__label">
+                    <input type="text" placeholder="Ваш вопрос"/>
+                    <div class="input__ico"><svg xmlns="http://www.w3.org/2000/svg" width="7.775" height="12.326" viewBox="0 0 7.775 12.326">
+<path id="Path_4601" data-name="Path 4601" d="M8.615-8.917a3.391,3.391,0,0,0-.772-2.133,4.006,4.006,0,0,0-3.207-1.276,4.124,4.124,0,0,0-2.217.655A3.846,3.846,0,0,0,.84-8.85H3.258a1.179,1.179,0,0,1,.453-1.041,1.676,1.676,0,0,1,1.024-.285,1.481,1.481,0,0,1,1.243.521A1.3,1.3,0,0,1,6.2-8.85,2.073,2.073,0,0,1,5.626-7.3c-.89.94-1.377,1.058-1.8,1.914a4.3,4.3,0,0,0-.521,2.116H5.726a1.976,1.976,0,0,1,.336-1.343A10.648,10.648,0,0,1,7.187-5.861,4.444,4.444,0,0,0,8.615-8.917ZM3.325,0h2.4V-2.418h-2.4Z" transform="translate(-0.84 12.326)" fill="#e4e4e4"/>
+</svg>
+                    </div>
+                    <div class="input__border"></div>
+                  </div>
+                </div>
+                <div class="brif__right">
+                  <label class="policity checkbox">
+                    <input type="radio"/><span></span>Я согласен на передачу и обработку моих персональных данных. Нажимая «Оставить заявку»
+                    , вы подтверждаете согласие с <a href="#">«Политикой по работе с персональными данными».</a>
+                  </label>
+                </div>
+                <div class="submit">
+                  <button class="btn --blue">Оставить заявку</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="popup --work">
+      <div class="popup__panel">
+        <div class="container flex">
+          <div class="popupwork__left">
+            <div class="workslider_info">
+              <div class="workslider_info-slide">
+                <h2>Студия <br>ландшафтного <br>дизайна Гринарт 1</h2>
+                <div class="worksslider_info-text">Брендинг, лендинг-пейдж, стратегия продвижения, комплекный маркетинг</div>
+                <div class="workslider_info-nav">
+                  <div class="slider__prev"><svg xmlns="http://www.w3.org/2000/svg" width="6.001" height="11" viewBox="0 0 6.001 11">
+<g id="arrow-left" transform="translate(-894 -7777)">
+<g id="Векторный_смарт-объект_копия_7" data-name="Векторный смарт-объект копия 7" transform="matrix(-1, 0, 0, -1, 908.401, 7794.156)">
+<g id="Group_4" data-name="Group 4">
+<path id="Path_9" data-name="Path 9" d="M14.4,11.656l-.506-.6-4.1-4.9L8.4,7.365,12,11.656,8.4,15.946l1.39,1.209,4.1-4.9Z"/>
+</g>
+</g>
+<path id="Color_Overlay" data-name="Color Overlay" d="M894.5,7783.1l-.5-.6.5-.606,4.106-4.894,1.39,1.209-3.6,4.291,3.6,4.29-1.39,1.21Z" fill="#e8e8e8"/>
+</g>
+</svg>
+                  </div>
+                  <div class="slider__next"><svg xmlns="http://www.w3.org/2000/svg" width="6.001" height="11" viewBox="0 0 6.001 11">
+<g id="arrow-left" transform="translate(900.001 7788) rotate(180)">
+<g id="Векторный_смарт-объект_копия_7" data-name="Векторный смарт-объект копия 7" transform="matrix(-1, 0, 0, -1, 908.401, 7794.156)">
+<g id="Group_4" data-name="Group 4">
+<path id="Path_9" data-name="Path 9" d="M14.4,11.656l-.506-.6-4.1-4.9L8.4,7.365,12,11.656,8.4,15.946l1.39,1.209,4.1-4.9Z"/>
+</g>
+</g>
+<path id="Color_Overlay" data-name="Color Overlay" d="M894.5,7783.1l-.5-.6.5-.606,4.106-4.894,1.39,1.209-3.6,4.291,3.6,4.29-1.39,1.21Z" fill="#e8e8e8"/>
+</g>
+</svg>
+                  </div>
+                </div>
+              </div>
+              <div class="workslider_info-slide">
+                <h2>Студия <br>ландшафтного <br>дизайна Гринарт 2</h2>
+                <div class="worksslider_info-text">Брендинг, лендинг-пейдж, стратегия продвижения, комплекный маркетинг</div>
+                <div class="workslider_info-nav">
+                  <div class="slider__prev"><svg xmlns="http://www.w3.org/2000/svg" width="6.001" height="11" viewBox="0 0 6.001 11">
+<g id="arrow-left" transform="translate(-894 -7777)">
+<g id="Векторный_смарт-объект_копия_7" data-name="Векторный смарт-объект копия 7" transform="matrix(-1, 0, 0, -1, 908.401, 7794.156)">
+<g id="Group_4" data-name="Group 4">
+<path id="Path_9" data-name="Path 9" d="M14.4,11.656l-.506-.6-4.1-4.9L8.4,7.365,12,11.656,8.4,15.946l1.39,1.209,4.1-4.9Z"/>
+</g>
+</g>
+<path id="Color_Overlay" data-name="Color Overlay" d="M894.5,7783.1l-.5-.6.5-.606,4.106-4.894,1.39,1.209-3.6,4.291,3.6,4.29-1.39,1.21Z" fill="#e8e8e8"/>
+</g>
+</svg>
+                  </div>
+                  <div class="slider__next"><svg xmlns="http://www.w3.org/2000/svg" width="6.001" height="11" viewBox="0 0 6.001 11">
+<g id="arrow-left" transform="translate(900.001 7788) rotate(180)">
+<g id="Векторный_смарт-объект_копия_7" data-name="Векторный смарт-объект копия 7" transform="matrix(-1, 0, 0, -1, 908.401, 7794.156)">
+<g id="Group_4" data-name="Group 4">
+<path id="Path_9" data-name="Path 9" d="M14.4,11.656l-.506-.6-4.1-4.9L8.4,7.365,12,11.656,8.4,15.946l1.39,1.209,4.1-4.9Z"/>
+</g>
+</g>
+<path id="Color_Overlay" data-name="Color Overlay" d="M894.5,7783.1l-.5-.6.5-.606,4.106-4.894,1.39,1.209-3.6,4.291,3.6,4.29-1.39,1.21Z" fill="#e8e8e8"/>
+</g>
+</svg>
+                  </div>
+                </div>
+              </div>
+              <div class="workslider_info-slide">
+                <h2>Студия <br>ландшафтного <br>дизайна Гринарт 3</h2>
+                <div class="worksslider_info-text">Брендинг, лендинг-пейдж, стратегия продвижения, комплекный маркетинг</div>
+                <div class="workslider_info-nav">
+                  <div class="slider__prev"><svg xmlns="http://www.w3.org/2000/svg" width="6.001" height="11" viewBox="0 0 6.001 11">
+<g id="arrow-left" transform="translate(-894 -7777)">
+<g id="Векторный_смарт-объект_копия_7" data-name="Векторный смарт-объект копия 7" transform="matrix(-1, 0, 0, -1, 908.401, 7794.156)">
+<g id="Group_4" data-name="Group 4">
+<path id="Path_9" data-name="Path 9" d="M14.4,11.656l-.506-.6-4.1-4.9L8.4,7.365,12,11.656,8.4,15.946l1.39,1.209,4.1-4.9Z"/>
+</g>
+</g>
+<path id="Color_Overlay" data-name="Color Overlay" d="M894.5,7783.1l-.5-.6.5-.606,4.106-4.894,1.39,1.209-3.6,4.291,3.6,4.29-1.39,1.21Z" fill="#e8e8e8"/>
+</g>
+</svg>
+                  </div>
+                  <div class="slider__next"><svg xmlns="http://www.w3.org/2000/svg" width="6.001" height="11" viewBox="0 0 6.001 11">
+<g id="arrow-left" transform="translate(900.001 7788) rotate(180)">
+<g id="Векторный_смарт-объект_копия_7" data-name="Векторный смарт-объект копия 7" transform="matrix(-1, 0, 0, -1, 908.401, 7794.156)">
+<g id="Group_4" data-name="Group 4">
+<path id="Path_9" data-name="Path 9" d="M14.4,11.656l-.506-.6-4.1-4.9L8.4,7.365,12,11.656,8.4,15.946l1.39,1.209,4.1-4.9Z"/>
+</g>
+</g>
+<path id="Color_Overlay" data-name="Color Overlay" d="M894.5,7783.1l-.5-.6.5-.606,4.106-4.894,1.39,1.209-3.6,4.291,3.6,4.29-1.39,1.21Z" fill="#e8e8e8"/>
+</g>
+</svg>
+                  </div>
+                </div>
+              </div>
+              <div class="workslider_info-slide">
+                <h2>Студия <br>ландшафтного <br>дизайна Гринарт 4</h2>
+                <div class="worksslider_info-text">Брендинг, лендинг-пейдж, стратегия продвижения, комплекный маркетинг</div>
+                <div class="workslider_info-nav">
+                  <div class="slider__prev"><svg xmlns="http://www.w3.org/2000/svg" width="6.001" height="11" viewBox="0 0 6.001 11">
+<g id="arrow-left" transform="translate(-894 -7777)">
+<g id="Векторный_смарт-объект_копия_7" data-name="Векторный смарт-объект копия 7" transform="matrix(-1, 0, 0, -1, 908.401, 7794.156)">
+<g id="Group_4" data-name="Group 4">
+<path id="Path_9" data-name="Path 9" d="M14.4,11.656l-.506-.6-4.1-4.9L8.4,7.365,12,11.656,8.4,15.946l1.39,1.209,4.1-4.9Z"/>
+</g>
+</g>
+<path id="Color_Overlay" data-name="Color Overlay" d="M894.5,7783.1l-.5-.6.5-.606,4.106-4.894,1.39,1.209-3.6,4.291,3.6,4.29-1.39,1.21Z" fill="#e8e8e8"/>
+</g>
+</svg>
+                  </div>
+                  <div class="slider__next"><svg xmlns="http://www.w3.org/2000/svg" width="6.001" height="11" viewBox="0 0 6.001 11">
+<g id="arrow-left" transform="translate(900.001 7788) rotate(180)">
+<g id="Векторный_смарт-объект_копия_7" data-name="Векторный смарт-объект копия 7" transform="matrix(-1, 0, 0, -1, 908.401, 7794.156)">
+<g id="Group_4" data-name="Group 4">
+<path id="Path_9" data-name="Path 9" d="M14.4,11.656l-.506-.6-4.1-4.9L8.4,7.365,12,11.656,8.4,15.946l1.39,1.209,4.1-4.9Z"/>
+</g>
+</g>
+<path id="Color_Overlay" data-name="Color Overlay" d="M894.5,7783.1l-.5-.6.5-.606,4.106-4.894,1.39,1.209-3.6,4.291,3.6,4.29-1.39,1.21Z" fill="#e8e8e8"/>
+</g>
+</svg>
+                  </div>
+                </div>
+              </div>
+              <div class="workslider_info-slide">
+                <h2>Студия <br>ландшафтного <br>дизайна Гринарт 5</h2>
+                <div class="worksslider_info-text">Брендинг, лендинг-пейдж, стратегия продвижения, комплекный маркетинг</div>
+                <div class="workslider_info-nav">
+                  <div class="slider__prev"><svg xmlns="http://www.w3.org/2000/svg" width="6.001" height="11" viewBox="0 0 6.001 11">
+<g id="arrow-left" transform="translate(-894 -7777)">
+<g id="Векторный_смарт-объект_копия_7" data-name="Векторный смарт-объект копия 7" transform="matrix(-1, 0, 0, -1, 908.401, 7794.156)">
+<g id="Group_4" data-name="Group 4">
+<path id="Path_9" data-name="Path 9" d="M14.4,11.656l-.506-.6-4.1-4.9L8.4,7.365,12,11.656,8.4,15.946l1.39,1.209,4.1-4.9Z"/>
+</g>
+</g>
+<path id="Color_Overlay" data-name="Color Overlay" d="M894.5,7783.1l-.5-.6.5-.606,4.106-4.894,1.39,1.209-3.6,4.291,3.6,4.29-1.39,1.21Z" fill="#e8e8e8"/>
+</g>
+</svg>
+                  </div>
+                  <div class="slider__next"><svg xmlns="http://www.w3.org/2000/svg" width="6.001" height="11" viewBox="0 0 6.001 11">
+<g id="arrow-left" transform="translate(900.001 7788) rotate(180)">
+<g id="Векторный_смарт-объект_копия_7" data-name="Векторный смарт-объект копия 7" transform="matrix(-1, 0, 0, -1, 908.401, 7794.156)">
+<g id="Group_4" data-name="Group 4">
+<path id="Path_9" data-name="Path 9" d="M14.4,11.656l-.506-.6-4.1-4.9L8.4,7.365,12,11.656,8.4,15.946l1.39,1.209,4.1-4.9Z"/>
+</g>
+</g>
+<path id="Color_Overlay" data-name="Color Overlay" d="M894.5,7783.1l-.5-.6.5-.606,4.106-4.894,1.39,1.209-3.6,4.291,3.6,4.29-1.39,1.21Z" fill="#e8e8e8"/>
+</g>
+</svg>
+                  </div>
+                </div>
+              </div>
+              <div class="workslider_info-slide">
+                <h2>Студия <br>ландшафтного <br>дизайна Гринарт</h2>
+                <div class="worksslider_info-text">Брендинг, лендинг-пейдж, стратегия продвижения, комплекный маркетинг</div>
+                <div class="workslider_info-nav">
+                  <div class="slider__prev"><svg xmlns="http://www.w3.org/2000/svg" width="6.001" height="11" viewBox="0 0 6.001 11">
+<g id="arrow-left" transform="translate(-894 -7777)">
+<g id="Векторный_смарт-объект_копия_7" data-name="Векторный смарт-объект копия 7" transform="matrix(-1, 0, 0, -1, 908.401, 7794.156)">
+<g id="Group_4" data-name="Group 4">
+<path id="Path_9" data-name="Path 9" d="M14.4,11.656l-.506-.6-4.1-4.9L8.4,7.365,12,11.656,8.4,15.946l1.39,1.209,4.1-4.9Z"/>
+</g>
+</g>
+<path id="Color_Overlay" data-name="Color Overlay" d="M894.5,7783.1l-.5-.6.5-.606,4.106-4.894,1.39,1.209-3.6,4.291,3.6,4.29-1.39,1.21Z" fill="#e8e8e8"/>
+</g>
+</svg>
+                  </div>
+                  <div class="slider__next"><svg xmlns="http://www.w3.org/2000/svg" width="6.001" height="11" viewBox="0 0 6.001 11">
+<g id="arrow-left" transform="translate(900.001 7788) rotate(180)">
+<g id="Векторный_смарт-объект_копия_7" data-name="Векторный смарт-объект копия 7" transform="matrix(-1, 0, 0, -1, 908.401, 7794.156)">
+<g id="Group_4" data-name="Group 4">
+<path id="Path_9" data-name="Path 9" d="M14.4,11.656l-.506-.6-4.1-4.9L8.4,7.365,12,11.656,8.4,15.946l1.39,1.209,4.1-4.9Z"/>
+</g>
+</g>
+<path id="Color_Overlay" data-name="Color Overlay" d="M894.5,7783.1l-.5-.6.5-.606,4.106-4.894,1.39,1.209-3.6,4.291,3.6,4.29-1.39,1.21Z" fill="#e8e8e8"/>
+</g>
+</svg>
+                  </div>
+                </div>
+              </div>
+              <div class="workslider_info-slide">
+                <h2>Студия <br>ландшафтного <br>дизайна Гринарт</h2>
+                <div class="worksslider_info-text">Брендинг, лендинг-пейдж, стратегия продвижения, комплекный маркетинг</div>
+                <div class="workslider_info-nav">
+                  <div class="slider__prev"><svg xmlns="http://www.w3.org/2000/svg" width="6.001" height="11" viewBox="0 0 6.001 11">
+<g id="arrow-left" transform="translate(-894 -7777)">
+<g id="Векторный_смарт-объект_копия_7" data-name="Векторный смарт-объект копия 7" transform="matrix(-1, 0, 0, -1, 908.401, 7794.156)">
+<g id="Group_4" data-name="Group 4">
+<path id="Path_9" data-name="Path 9" d="M14.4,11.656l-.506-.6-4.1-4.9L8.4,7.365,12,11.656,8.4,15.946l1.39,1.209,4.1-4.9Z"/>
+</g>
+</g>
+<path id="Color_Overlay" data-name="Color Overlay" d="M894.5,7783.1l-.5-.6.5-.606,4.106-4.894,1.39,1.209-3.6,4.291,3.6,4.29-1.39,1.21Z" fill="#e8e8e8"/>
+</g>
+</svg>
+                  </div>
+                  <div class="slider__next"><svg xmlns="http://www.w3.org/2000/svg" width="6.001" height="11" viewBox="0 0 6.001 11">
+<g id="arrow-left" transform="translate(900.001 7788) rotate(180)">
+<g id="Векторный_смарт-объект_копия_7" data-name="Векторный смарт-объект копия 7" transform="matrix(-1, 0, 0, -1, 908.401, 7794.156)">
+<g id="Group_4" data-name="Group 4">
+<path id="Path_9" data-name="Path 9" d="M14.4,11.656l-.506-.6-4.1-4.9L8.4,7.365,12,11.656,8.4,15.946l1.39,1.209,4.1-4.9Z"/>
+</g>
+</g>
+<path id="Color_Overlay" data-name="Color Overlay" d="M894.5,7783.1l-.5-.6.5-.606,4.106-4.894,1.39,1.209-3.6,4.291,3.6,4.29-1.39,1.21Z" fill="#e8e8e8"/>
+</g>
+</svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="popupwork__right">
+            <div class="workslider_pic">
+              <div class="workslider_pic-slide"><img src="./images/slider/slide.png" srcset="./images/slider/slide@2x.png 2x" alt=""/></div>
+              <div class="workslider_pic-slide"><img src="./images/slider/slide.png" srcset="./images/slider/slide@2x.png 2x" alt=""/></div>
+              <div class="workslider_pic-slide"><img src="./images/slider/slide.png" srcset="./images/slider/slide@2x.png 2x" alt=""/></div>
+              <div class="workslider_pic-slide"><img src="./images/slider/slide.png" srcset="./images/slider/slide@2x.png 2x" alt=""/></div>
+              <div class="workslider_pic-slide"><img src="./images/slider/slide.png" srcset="./images/slider/slide@2x.png 2x" alt=""/></div>
+              <div class="workslider_pic-slide"><img src="./images/slider/slide.png" srcset="./images/slider/slide@2x.png 2x" alt=""/></div>
+              <div class="workslider_pic-slide"> <img src="./images/slider/slide.png" srcset="./images/slider/slide@2x.png 2x" alt=""/></div>
+            </div>
           </div>
         </div>
       </div>
     </div>
     <script src="./js/libs.min.js"></script>
     <script src="./js/main.js"></script>
-    <script id="plane-vs" type="x-shader/x-vertex">
-      #ifdef GL_ES
-      precision mediump float;
-      #endif
-      
-      // those are the mandatory attributes that the lib sets
-      attribute vec3 aVertexPosition;
-      attribute vec2 aTextureCoord;
-      
-      // those are mandatory uniforms that the lib sets and that contain our model view and projection matrix
-      uniform mat4 uMVMatrix;
-      uniform mat4 uPMatrix;
-      
-      // our texture matrix that will handle image cover
-      uniform mat4 uTextureMatrix0;
-      
-      // pass your vertex and texture coords to the fragment shader
-      varying vec3 vVertexPosition;
-      varying vec2 vTextureCoord;
-      
-      void main() {
-          vec3 vertexPosition = aVertexPosition;
-          
-          gl_Position = uPMatrix * uMVMatrix * vec4(vertexPosition, 1.0);
-          
-          // set the varyings
-          // here we use our texture matrix to calculate the accurate texture coords
-          vTextureCoord = (uTextureMatrix0 * vec4(aTextureCoord, 0.0, 1.0)).xy;
-          vVertexPosition = vertexPosition;
-      }
-    </script>
-    <script id="plane-fs" type="x-shader/x-fragment">
-      #ifdef GL_ES
-      precision mediump float;
-      #endif
-      
-      // get our varyings
-      varying vec3 vVertexPosition;
-      varying vec2 vTextureCoord;
-      
-      // the uniform we declared inside our javascript
-      uniform float uTime;
-      
-      // our texture sampler (default name, to use a different name please refer to the documentation)
-      uniform sampler2D uSampler0;
-      
-      void main() {
-          // get our texture coords from our varying
-          vec2 textureCoord = vTextureCoord;
-          
-          // displace our pixels along the X axis based on our time uniform
-          // textures coords are ranging from 0.0 to 1.0 on both axis
-          textureCoord.x += sin(textureCoord.y * 25.0) * cos(textureCoord.x * 25.0) * (cos(uTime / 50.0)) / 25.0;
-          
-          // map our texture with the texture matrix coords
-          gl_FragColor = texture2D(uSampler0, textureCoord);
-      }
-    </script>
   </body>
 </html>
