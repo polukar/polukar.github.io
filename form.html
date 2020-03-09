@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <meta name="description" content=""/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="HandheldFriendly" content="True"/>
+    <meta http-equiv="Cache-Control" content="no-cache"/>
+    <title>title</title>
+    <link rel="stylesheet" href="./css/libscss.css"/>
+    <link rel="stylesheet" href="./css/main.css"/>
+    <link rel="stylesheet" href="./css/ie.css"/>
+    <link rel="icon" type="image/png" href="./images/favicon.png"/>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=7417a44d-8752-440e-81f2-799bc45cf254&amp;lang=ru_RU" type="text/javascript"></script>
+  </head>
+  <body ontouchstart="">
+    <div class="header">
+      <div class="container"><a class="header__phone" href="tel:88001234567">8-800-123-45-67</a><a class="header__busket" href=""><img src="./images/busket.svg" alt=""/></a></div>
+    </div>
+    <div class="filter-top">
+      <div class="container">
+        <div class="menu">
+          <div class="menu__top">Каталог</div>
+          <div class="menu__drop"><a class="menu__item" href="#">СУХИЕ СМЕСИ</a><a class="menu__item" href="#">КРАСКИ, ГРУНТОВКИ, ГЕРМЕТИКИ</a><a class="menu__item" href="#">ГИПСОВЫЕ ИЗДЕЛИЯ</a><a class="menu__item" href="#">САНТЕХНИКА</a><a class="menu__item" href="#">ЭЛЕКТРИКА</a><a class="menu__item" href="#">РАСХОДНЫЕ МАТЕРИАЛЫ</a><a class="menu__item" href="#">ПРОЧЕЕ</a></div>
+        </div>
+        <div class="search">
+          <div class="search__input">
+            <input type="text"/>
+          </div><a class="search__btn" href="#">ПОИСК</a>
+        </div>
+      </div>
+    </div>
+    <form class="form">
+      <div class="container">
+        <div class="form-wrap">
+          <div class="form__item">
+            <div class="form__title">Введите адрес доставки</div>
+            <input class="form__biginput" type="text" placeholder="г. Город, ул. Ленина"/>
+          </div>
+          <div class="form__item">
+            <div class="form__description">Ограничение по высоте</div>
+            <div class="form__list">
+              <div class="form__left form__left--flex">
+                <div class="form__radios">
+                  <label class="radio">
+                    <input type="radio" name="name1"/><span></span>нет
+                  </label>
+                  <label class="radio">
+                    <input type="radio" name="name1"/><span></span>есть
+                  </label>
+                </div>
+                <div class="form__smallinput">
+                  <input type="text"/><span>м</span>
+                </div>
+              </div>
+              <div class="form__right">
+                <div class="form__checkboxs">
+                  <label class="checkbox">
+                    <input type="checkbox"/><span></span>Грузовой
+                  </label>
+                  <label class="checkbox">
+                    <input type="checkbox"/><span></span>Пассажирский
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="form__item">
+            <div class="form__description">Подъем</div>
+            <div class="form__list">
+              <div class="form__left form__left--flex">
+                <div class="form__radios">
+                  <label class="radio">
+                    <input type="radio" name="name2"/><span></span>Пешком
+                  </label>
+                  <label class="radio">
+                    <input type="radio" name="name2"/><span></span>Лифт
+                  </label>
+                </div>
+                <div class="form__smallinput">
+                  <input type="text"/><span>Этаж</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="form__item">
+            <div class="form__list">
+              <div class="form__left">
+                <div class="form__title">Кто примет заказ</div>
+                <label class="form__input">
+                  <p>Имя</p>
+                  <input type="text" placeholder="Имя"/>
+                </label>
+                <label class="form__input">
+                  <p>Телефон</p>
+                  <input type="text" placeholder="+79991112233"/>
+                </label>
+                <label class="form__input">
+                  <p>Email</p>
+                  <input type="text" placeholder="you@example.com"/>
+                </label>
+              </div>
+              <div class="form__right form__right--selects">
+                <div class="form__select form__select--first">
+                  <p>Дата доставки</p>
+                  <div class="select select--date">
+                    <div class="select__main">завтра, 2 сентября</div>
+                    <div class="select__drop">
+                      <div class="select__item"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="form__select">
+                  <p>Время</p>
+                  <div class="select select--time">
+                    <div class="select__main">9.00-21.00</div>
+                    <div class="select__drop">
+                      <div class="select__item"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="form__item">
+            <div class="form__title">Способ оплаты</div>
+            <div class="form__radios">
+              <label class="radio">
+                <input type="radio"/><span></span>Наличные
+              </label>
+              <label class="radio">
+                <input type="radio"/><span></span>Безналичный
+              </label>
+            </div>
+          </div>
+          <div class="form__item form__item--comments">
+            <div class="form__title">Комментарий</div>
+            <input class="form__biginput" type="text" placeholder=""/>
+            <div class="form__summ">
+              <p class="form__title">Сумма заказа</p>
+              <p class="form__title">1743 р</p>
+            </div>
+          </div>
+          <div class="form__item">
+            <input class="brn--red submit" type="text" value="ПОДТВЕРДИТЬ ЗАКАЗ"/>
+          </div>
+        </div>
+      </div>
+    </form>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__links">
+          <div class="footer__link"><a href=""> О компании</a></div>
+          <div class="footer__link"> <a href="">Доставка и оплата</a></div>
+          <div class="footer__link"> <a href="">Новости</a></div>
+          <div class="footer__link"> <a href="">Контакты</a></div>
+          <div class="footer__link"> <a href="">Акции</a></div>
+          <div class="footer__link"> <a href="">Мобильная версия</a></div>
+        </div>
+        <div class="footer__contacts">
+          <div class="footer__item footer__item--socials">
+            <div class="footer__title"> Мы в соцсетях</div>
+            <div class="socials"><a class="socials__link" href="#"><img src="./images/fb.svg" alt=""/></a><a class="socials__link" href="#"><img src="./images/in.svg" alt=""/></a><a class="socials__link" href="#"><img src="./images/yb.svg" alt=""/></a></div>
+          </div>
+          <div class="footer__item footer__item--flex">
+            <div class="footer__title">Служба поддержки</div><a class="footer__phone" href="tel:84954317111">8 (495) 431-71-11</a>
+            <div class="footer__title">Подписаться на акции</div>
+            <form class="footer__form">
+              <input type="text" placeholder="email"/>
+              <input class="brn--red" type="submit" value="Ок"/>
+            </form>
+          </div>
+        </div>
+        <div class="copyright">что-то там про обработку персональных данных</div>
+      </div>
+    </footer>
+    <script src="./js/libs.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
