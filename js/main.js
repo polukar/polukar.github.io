@@ -50,9 +50,25 @@ $('.basket__delete').on('click', function () {
 
 
 $('.mobile__search').click(function () {
-  $('.search').slideDown();
+  if (!$(this).hasClass('active')) {
+    $(this).addClass('active');
+    $('.search').fadeIn();
+    $('.menu').fadeOut();
+  } else {
+    $(this).removeClass('active');
+    $('.search').fadeOut();
+  }
 })
 
+
+
 $('.burger').click(function () {
-  $('.menu').fadeIn();
+  if (!$(this).hasClass('active')) {
+    $(this).addClass('active');
+    $('.menu').fadeIn();
+    $('.search').fadeOut();
+  } else {
+    $(this).removeClass('active');
+    $('.menu').fadeOut();
+  }
 })
