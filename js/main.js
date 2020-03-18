@@ -197,32 +197,32 @@ $('.workslider_pic').slick({
 
 
 
-var maxSize = 1200;
-var minSize = 700;
-var step = 1200 / 100;
+// var maxSize = 1200;
+// var minSize = 700;
+// var step = 1200 / 100;
 
-function sizeBody(size) {
-  if (size > 800 && size < 1201) {
-    var zoom = size / step;
-    $('body').css({
-      'zoom': zoom + "%"
-    })
-    console.log(zoom);
-  } else {
-    $('body').css({
-      'zoom': "100%"
-    })
-  }
+// function sizeBody(size) {
+//   if (size > 800 && size < 1201) {
+//     var zoom = size / step;
+//     $('body').css({
+//       'zoom': zoom + "%"
+//     })
+//     console.log(zoom);
+//   } else {
+//     $('body').css({
+//       'zoom': "100%"
+//     })
+//   }
 
-}
+// }
 
 
-$(document).ready(function () {
-  var size = $(window).width();
-  sizeBody(size)
-})
+// $(document).ready(function () {
+//   var size = $(window).width();
+//   sizeBody(size)
+// })
 
-$(window).resize(function () {
-  var size = $(window).width();
-  sizeBody(size)
-})
+// $(window).resize(function () {
+//   var size = $(window).width();
+//   sizeBody(size)
+// })
