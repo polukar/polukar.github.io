@@ -202,7 +202,7 @@ var minSize = 700;
 var step = 1200 / 100;
 
 function sizeBody(size) {
-  if (size > 700 && size < 1201) {
+  if (size > 800 && size < 1201) {
     var zoom = size / step;
     $('body').css({
       'zoom': zoom + "%"
